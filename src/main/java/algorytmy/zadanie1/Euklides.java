@@ -1,4 +1,4 @@
-package algorytmy.Zadanie1;
+package algorytmy.zadanie1;
 
 import java.util.Scanner;
 
@@ -20,6 +20,8 @@ public class Euklides {
         int liczba2 = scanner.nextInt();
 
         if (liczba1 < 0 || liczba2 < 0) throw new IllegalArgumentException();
+
+
 
         while(liczba1 != liczba2) {
             if (liczba1 > liczba2){
